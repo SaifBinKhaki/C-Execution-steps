@@ -11,9 +11,11 @@ Lets suppose we have a file name practice.c
         
 2.COMPILING
         This is where a compiler gets to see the code. Compiler will see calls to functions and picks references and convert the preprocessed code to assembly code. This is the point where any compiler throws compile time errors because it can't convert the code into assembly code according to its rules specified.
+          
           --What really is an assembly code?--
           --Assembly code is the human readable coding language with one-to-one contact between human and machine.--
 After the code is converted to assembly code, its extension is changed to .s This is the stage where assembly code is converted into object code with file having extension .o
+          
           --What really is an object code?--
           --Object code is the necessary machine coding which must be there with a program's machine code to run. This necessary coding has offsets and placeholders that are used by linkers to link all the files together.--
 
