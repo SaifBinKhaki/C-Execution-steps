@@ -1,6 +1,27 @@
 # C-Execution-steps
-GCC = GNU Compiler Collection
-GNU = GNU's Not Unix
+Before Coming to execution, lets discuss some compilers of C, C++ and objective C. There are a lot providing services, a few of them are GCC, visual studio etc. Lets discuss GCC,
+
+GCC = GNU Compiler Collection (It has all the compilers in it for all the processes till execution.)
+GNU = GNU's Not Unix (UNIX is an operating system. GNU is a system that allocates machine resources and talks to the hardware through kernel for example LINUX/kernel.)
+
+Now we have compilers for compiling, now we will see how much we can interact to an hardware through a specific OS.
+Kernels: It is actually an interface between user mode and physical hardware.
+There are three types of Kernels:
+
+MICRO-KERNEL:
+
+It allows access to CPU,memory and IPC (inter processes communication) but in this kernel, all the processes run in queue. OS: OS X
+
+MONO-LETHIC KERNEL:
+
+It allows most of the access to the user mode that is why is less secure but have better IPS and large memory footprint. This provides a more direct access to the hardware components like CPU, Memory, IPC, Drivers and server calls. It has an advantage that the processes dont run in queue so the processes dont have to wait for one process to complete. OS: LINUX/KERNEL
+
+HYBRID-KERNEL:
+
+Kernels can decide what hardwares they want to be in user mode and what in supervisor mode. Drivers and i/o are provided in USER MODE while IPC and server calls are in SUPERVISOR MODE.
+
+        --What is a memory footprint?--
+        --It is actually the amount memory used or referenced by a program while running.--
 
 There are usually four steps for a file to execute properly with an extension of c or cpp.
 
