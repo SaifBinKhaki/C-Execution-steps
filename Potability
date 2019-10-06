@@ -3,7 +3,6 @@ or we are cool with it. The more a language is low level like assembly language,
 High level languages today have compilers that themselves change the machine code when changing the platform, 
 however, the user syntax for the language never changes. This results in the portability of any language. 
 
-
       --Examples of portable langugaes--
       --C, C++, JAVA--
 
@@ -11,3 +10,5 @@ IDE:
 This basically is called INTEGRATED DEVELOPMENT ENVIRONMENT. It actuallly provides the developer a developer environment in which
 all the methods are integrated to be useful. All compilers can be called as IDEs, since, they provide the platforms for software
 development.
+
+      --Examples of IDEs--
