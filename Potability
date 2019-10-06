@@ -6,3 +6,8 @@ however, the user syntax for the language never changes. This results in the por
 
       --Examples of portable langugaes--
       --C, C++, JAVA--
+
+IDE:
+This basically is called INTEGRATED DEVELOPMENT ENVIRONMENT. It actuallly provides the developer a developer environment in which
+all the methods are integrated to be useful. All compilers can be called as IDEs, since, they provide the platforms for software
+development.
