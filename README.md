@@ -47,7 +47,12 @@ After the code is converted to assembly code, its extension is changed to .s Thi
         It loads the exe file inm ain or primary memory and the program runs or (for the you were searching this far) executes.
 
           --Then what really is an interpreter?and why we didnt need it in this execution processes?--
-          --We have two types of exe files. Those who are written in machine coding are called execution files. Those which are saved in plain text format rather than in machine binary coding called SCRIPTS. We need INTERPRETERS to convert such files to exe files. But as we can see, linker creates the exe file not Script file in binary machine level codinig, so we dont need a interpreter.--
+          --Interpreters are the compilers but with different execution method. Compilers turn source code file to machine code file and then executes the compilete file. However, interpreters take one statement and convert it into machine code and then execute it. Then with an iteration, does the same with all the other statements. This thing helps a lot when writing a large program. Languages that use interpreters are JAVA, C#, Perl, javascript etc.--
+          
+          --What is a Script? What is script in JAVAScript?--
+          --Scripting is the process of executing the file without even compiling. It may be called as interpreting without compiling. Such languages which need not any compiling are called Scripting languages. For exampe Javascript-- 
+          
+          
 
 Operations of some code lines:
 #include<iostream.h>
