@@ -1,0 +1,5 @@
+Portablitiy is a property associated with the machines whether we'll have to change the code before executing it on other platform or we are cool with it. The more a language is low level like assembly language, the lesser it will be portable. High level languages today have compilers that themselves change the machine code when changing the platform, however, the user syntax for the language never changes. This results in the portability of any language. 
+
+
+      --Examples of portable langugaes--
+      --C, C++, JAVA--
