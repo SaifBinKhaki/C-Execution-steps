@@ -51,10 +51,3 @@ After the code is converted to assembly code, its extension is changed to .s Thi
           
           --What is a Script? What is script in JAVAScript?--
           --Scripting is the process of executing the file without even compiling. It may be called as interpreting without compiling. Such languages which need not any compiling are called Scripting languages. For exampe Javascript-- 
-          
-          
-
-Operations of some code lines:
-#include<iostream.h>
-        Iostream is basically a header file with functions and methods predefined in it. With the preprocessor directive (#include) directing towards iostream.h file, the preprocessor pastes all the code of methods and functionos into our cpp module. This iostream file has methods and functions like cout, cin and cerr.
-        
